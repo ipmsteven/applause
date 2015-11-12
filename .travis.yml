@@ -3,8 +3,6 @@ rvm:
   - ruby-head
   - 2.2.3
   - 2.1.2
-  - jruby
-  - rbx
 before_install: gem install bundler -v 1.10.6
 
 script: CODECLIMATE_REPO_TOKEN=8201278ddde48df0c99f2225c7339cb325fbdef53dab4d38b4bf48527ec58d9b bundle exec rake
