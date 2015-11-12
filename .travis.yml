@@ -3,8 +3,6 @@ rvm:
   - ruby-head
   - 2.2.3
   - 2.1.2
-  - 2.0.0
-  - 1.9.3
   - jruby
   - rbx
 before_install: gem install bundler -v 1.10.6
