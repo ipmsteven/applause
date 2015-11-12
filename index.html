@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Applause by ipmsteven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Applause</h1>
+      <h2 class="project-tagline">Yet Another Command Line Option Parser</h2>
+      <a href="https://github.com/ipmsteven/applause" class="btn">View on GitHub</a>
+      <a href="https://github.com/ipmsteven/applause/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/ipmsteven/applause/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="applause" class="anchor" href="#applause" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applause</h1>
+
+<p><a href="https://travis-ci.org/ipmsteven/applause"><img src="https://travis-ci.org/ipmsteven/applause.svg?branch=master" alt="Build
+Status"></a>
+<a href="https://codeclimate.com/github/ipmsteven/applause"><img src="https://codeclimate.com/github/ipmsteven/applause/badges/gpa.svg" alt="Code
+Climate"></a>
+<a href="https://codeclimate.com/github/ipmsteven/applause/coverage"><img src="https://codeclimate.com/github/ipmsteven/applause/badges/coverage.svg" alt="Test
+Coverage"></a></p>
+
+<p>Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file <code>lib/applause</code>. To experiment with that code, run <code>bin/console</code> for an interactive prompt.</p>
+
+<p>Yet Another Command Line Option Parser(inspired by <a href="https://github.com/soveran/clap">clap</a>)</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Add this line to your application's Gemfile:</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-k">gem</span> <span class="pl-s"><span class="pl-pds">'</span>applause<span class="pl-pds">'</span></span></pre></div>
+
+<p>And then execute:</p>
+
+<pre><code>$ bundle
+</code></pre>
+
+<p>Or install it yourself as:</p>
+
+<pre><code>$ gem install applause
+</code></pre>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Pass <code>ARGV</code> and a hash of flags.</p>
+
+<div class="highlight highlight-source-ruby"><pre><span class="pl-c1">Applause</span>.run <span class="pl-c1">ARGV</span>,
+  <span class="pl-s"><span class="pl-pds">'</span>-a<span class="pl-pds">'</span></span>: lambda { |<span class="pl-smi">param</span>| ... },
+  <span class="pl-s"><span class="pl-pds">'</span>-b<span class="pl-pds">'</span></span>: lambda { ... }</pre></div>
+
+<h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span class="octicon octicon-link"></span></a>Development</h2>
+
+<p>After checking out the repo, run <code>bin/setup</code> to install dependencies. Then, run <code>rake test</code> to run the tests. You can also run <code>bin/console</code> for an interactive prompt that will allow you to experiment.</p>
+
+<p>To install this gem onto your local machine, run <code>bundle exec rake install</code>. To release a new version, update the version number in <code>version.rb</code>, and then run <code>bundle exec rake release</code>, which will create a git tag for the version, push git commits and tags, and push the <code>.gem</code> file to <a href="https://rubygems.org">rubygems.org</a>.</p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>B.U.G reports and pull requests are welcome on GitHub at <a href="https://github.com/ipmsteven/applause">https://github.com/ipmsteven/applause</a>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the <a href="contributor-covenant.org">Contributor Covenant</a> code of conduct.</p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+
+<p>The gem is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ipmsteven/applause">Applause</a> is maintained by <a href="https://github.com/ipmsteven">ipmsteven</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
