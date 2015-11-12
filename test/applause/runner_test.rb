@@ -3,9 +3,8 @@ require 'test_helper'
 module Applause
   class RunnerTest < Minitest::Test
     def test_run
-      args    = ['-a', 1, '-b', 2]
-      options = { '-a': lambda {|a| puts a},
-                  '-b': lambda {|b| puts b} }
+      args    = mock
+      options = mock
 
       runner = Runner.new(args: args, options: options)
 
