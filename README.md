@@ -2,6 +2,8 @@
 
 [![Build
 Status](https://travis-ci.org/ipmsteven/applause.svg?branch=master)](https://travis-ci.org/ipmsteven/applause)
+[![Code
+Climate](https://codeclimate.com/github/ipmsteven/applause/badges/gpa.svg)](https://codeclimate.com/github/ipmsteven/applause)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/applause`. To experiment with that code, run `bin/console` for an interactive prompt.
 
